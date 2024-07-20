@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Transcription</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="label">
+                <label for="language-select">Select Language:</label>
+                <select id="language-select">
+                    <option value="en-US">English (US)</option>
+                    <option value="es-ES">Spanish</option>
+                    <option value="fr-FR">French</option>
+                    <option value="de-DE">German</option>
+                    <option value="zh-CN">Chinese</option>
+                    <option value="ja-JP">Japanese</option>
+                    <option value="hi-IN">Hindi</option>
+                    <option value="ar-SA">Arabic</option>
+                    <option value="ru-RU">Russian</option>
+                    <option value="pt-PT">Portuguese</option>
+                    <option value="it-IT">Italian</option>
+                    <!-- Add more languages as needed -->
+                    </select>
+            </div>
+            <div class="record">
+                <button id="record-btn">Record Audio</button>
+            <p id="recording-status"></p>
+            </div>
+        </div>
+        <div class="right">
+            <h2>Transcribed Text:</h2>
+            <p id="transcribed-text"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
