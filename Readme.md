@@ -41,18 +41,26 @@ CSS Styling
 
 The style.css file contains the styles for the web application:
 
+
 Styles for the body, container, labels, and record button.
+
 
 A throbber (spinner) to indicate recording in progress.
 
+
 JavaScript Functionality
+
 
 The script.js file contains the logic for handling audio recording and transcription:
 
+
 When the document is loaded, event listeners are set up.
+
 
 The recordBtn button toggles recording on and off.
 
+
 When recording starts, the recognition object is configured with the selected language and starts listening.
+
 
 The recognition results are displayed in the transcribedText element.
